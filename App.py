@@ -10,27 +10,28 @@ from flask import render_templates
 
 @app.route('/Home')
 def Home():
-   return render_templates('index.html')
+    return render_templates('index.html')
 
 #@Blog page ...
 
 
 @app.route('/Blogs')
 def Blogs():
-   return render_templates('blogs.html')
+    return render_templates('blogs.html')
 #@Services page ...
 
 @app.route('/Services')
 def Services():
-   return render_templates('services.html')
+    return render_templates('services.html')
 #@project page ...
 
 
 @app.route('/Projects')
 def Projects():
-   return render_templates('projects.html')
+    return render_templates('projects.html')
 
 
 #@end ...
 
 if _name_=="_name_":
+
